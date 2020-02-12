@@ -1,7 +1,9 @@
 const express = require("express")
 const server = express()
-const port = 3000
+const cors = require("cors")
 const answers = require("./answers")
+
+server.use(cors())
 
 server.get("/questions", (req, res) => {
   res.sendFile("api-response.txt", { root: __dirname })
