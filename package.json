@@ -1,0 +1,28 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Code assignment axis",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litemerafrukt/assignment.git"
+  },
+  "author": "Anders Nygren <litemerafrukt@gmail.com> (http://litemerafrukt.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/litemerafrukt/assignment/issues"
+  },
+  "homepage": "https://github.com/litemerafrukt/assignment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
