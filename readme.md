@@ -16,4 +16,4 @@ root.Quiz.Q2.Incorrects=Central Processing Unit,Hard Disk Drive,Random Access Me
 
 Tre frågor ska ställas i randomiserad ordning efter varandra en åt gången. Svaren ska sedan rättas med en get-request enligt formatet: `/score?Quiz.Q1.Guess=Apple&Quiz.Q2.Guess=Central Processing Unit`. I text-svaret får man tillbaka hur många rätt operatören hade. Antalet rätt presenteras för operatören varefter hen kan välja att spela en gång till.
 
-Uppgiften ska skrivas med Typescript, ramverk är valfritt, designen är oviktig så länge. I detta repo finns en mock-server som svarar på endpoints "/questions" och "/score".
+Uppgiften ska skrivas med Typescript, ramverk är valfritt, designen är oviktig än så länge. I detta repo finns en mock-server som svarar på endpoints "/questions" och "/score".
