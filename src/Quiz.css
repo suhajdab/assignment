@@ -15,10 +15,11 @@ legend {
 
 h6 {
   margin: 0;
+  font-variant: small-caps;
 }
 
 h4 {
-  margin: 1rem 0 2rem;
+  margin: 0.5rem 0 2rem;
 }
 
 .buttons {
