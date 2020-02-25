@@ -1,0 +1,40 @@
+
+
+fieldset {
+  min-width: 800px;
+  max-width: 90%;
+}
+
+legend {
+  font-variant: small-caps;
+}
+
+.question {
+  text-align: left;
+}
+
+h6 {
+  margin: 0;
+}
+
+h4 {
+  margin: 1rem 0 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 0.25rem 1rem;
+  margin: 1rem;
+  border-radius: 3px;
+  font-size: medium;
+  font-variant: small-caps;
+}
+
+.score {
+  margin: 1rem;
+  font-variant: small-caps;
+}
