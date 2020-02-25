@@ -103,9 +103,11 @@ class Quiz extends React.Component<QuizProps, QuizState> {
       }
     });
 
-    // let's not make it that easy :)
     questions.forEach((question)=> {
+      // let's not make it that easy :)
       question.answers.sort(() => Math.random() - 0.5);
+      // remove duplicate answers
+      question.answers = question.answers.filter((answer, index, self) => self.indexOf(answer) === index);
     });
 
     this.setState({
